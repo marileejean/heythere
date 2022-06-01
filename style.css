@@ -1,0 +1,21 @@
+body {
+    background-color: #bff5f5;
+
+}
+#projectbox {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    border: 1px solid black;
+    align-content: space-around;
+    width: 100%;
+}
+
+.projects {
+    border: 1px solid blue;
+    background-color:  white;
+    width: 80%;
+    padding: 10%;
+    margin: 1%;
+    align-content: center;
+}
