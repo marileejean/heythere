@@ -22,7 +22,7 @@ body {
     background-size: cover;
 }
 
-.skills
+#skillslist
 {
    text-transform: capitalize;
    display: inline;
