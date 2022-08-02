@@ -22,10 +22,11 @@ body {
     background-size: cover;
 }
 
-li.skills
+.skills
 {
    text-transform: capitalize;
    display: inline;
+   font-size: small;
 }
 
 
