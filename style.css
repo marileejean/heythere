@@ -22,6 +22,12 @@ body {
     background-size: cover;
 }
 
+.skills
+{
+   text-transform: capitalize;
+   display: inline;
+}
+
 /* image grid by https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-and-css-fcb973f595ea */
 
 #gallery {
