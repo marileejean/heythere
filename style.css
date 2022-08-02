@@ -1,7 +1,8 @@
 body {
-    background-color: white;
+    background-color: rgb(40, 40, 40);
     margin: 10%;
     font-family: 'Radio Canada', sans-serif;
+    color:rgb(182, 209, 208);
 }
 #projectbox {
     display: flex;
@@ -12,8 +13,8 @@ body {
 }
 
 .projects {
-    border: 1px solid black;
-    background-color:  white;
+    border: 1px solid rgb(255, 255, 255);
+    background-color:  rgb(100, 100, 100);
     width: 95%;
     padding: 5%;
     margin: 1%;
