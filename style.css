@@ -5,10 +5,6 @@ body {
     color:rgb(199, 196, 196);
 }
 #projectbox {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-content: space-around;
     width: 100%;
 }
 
@@ -27,15 +23,15 @@ body {
 {
    text-transform: capitalize;
    display: inline;
-   font-size: small;
-   color: blue;
+   font-size: medium;
+   color: rgb(63, 63, 194);
    padding-left: 5px;
 }
 
 #gallery {
+    border: 1px solid rgb(255, 255, 255);
     max-width: 900px;
     position: relative;
-    margin: auto;
  }
 
  .galleryImage {
@@ -45,7 +41,6 @@ body {
  img {
     margin: auto;
     display: block;
-    width: 100%;
  }
  .galleryButton {
     cursor: pointer;
@@ -69,8 +64,10 @@ body {
  .forward {
     right: 2%;
  }
- .back:hover,
- .next:hover {
+ .back:hover, .forward:hover {
     color: rgb(255, 253, 253);
-    background-color: rgba(0, 0, 0, 0.8);   
+    background-color: rgba(63, 63, 194);   
+ }
+ footer{
+    margin: 10px;
  }
