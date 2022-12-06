@@ -4,34 +4,40 @@ body {
     font-family: 'Radio Canada', sans-serif;
     color:rgb(199, 196, 196);
 }
+a{
+    text-decoration: none;
+    color:rgb(73, 73, 223)
+}
+.skillslist, .navlist
+{
+   text-transform: uppercase;
+   display: inline;
+   font-size: medium;
+   color: rgb(73, 73, 223);
+   padding-left: 5px;
+   font-weight: bold;
+   padding-right: 10px;
+}
 #projectbox {
     width: 100%;
-}
 
+}
 .projects {
-    border: 1px solid rgb(255, 255, 255);
-    background-color:  rgb(199, 196, 196);
     width: 95%;
     padding: 5%;
     margin: 1%;
     align-content: center;
     background-position: center;
     background-size: cover;
+    background-color:  rgb(180, 176, 176);
 }
 
-.skillslist
-{
-   text-transform: capitalize;
-   display: inline;
-   font-size: medium;
-   color: rgb(63, 63, 194);
-   padding-left: 5px;
-}
 
 #gallery {
     border: 1px solid rgb(255, 255, 255);
     max-width: 900px;
     position: relative;
+    background-color:  rgb(180, 176, 176);
  }
 
  .galleryImage {
@@ -41,6 +47,7 @@ body {
  img {
     margin: auto;
     display: block;
+    max-width: 100%;
  }
  .galleryButton {
     cursor: pointer;
