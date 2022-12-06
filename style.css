@@ -8,8 +8,7 @@ a{
     text-decoration: none;
     color:rgb(73, 73, 223)
 }
-.skillslist, .navlist
-{
+.skillslist,.navlist {
    text-transform: uppercase;
    display: inline;
    font-size: medium;
