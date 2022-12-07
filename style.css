@@ -17,63 +17,6 @@ a{
    font-weight: bold;
    padding-right: 10px;
 }
-#projectbox {
-    width: 100%;
-
-}
-.projects {
-    width: 95%;
-    padding: 5%;
-    margin: 1%;
-    align-content: center;
-    background-position: center;
-    background-size: cover;
-    background-color:  rgb(180, 176, 176);
-}
-
-
-#gallery {
-    border: 1px solid rgb(255, 255, 255);
-    max-width: 900px;
-    position: relative;
-    background-color:  rgb(180, 176, 176);
- }
-
- .galleryImage {
-    display: none;
- }
-
- img {
-    margin: auto;
-    display: block;
-    max-width: 100%;
- }
- .galleryButton {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 8px 16px;
-    margin-top: -22px;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 50%;    
- }
- .back {
-    left:2%;
- }
- .forward {
-    right: 2%;
- }
- .back:hover, .forward:hover {
-    color: rgb(255, 253, 253);
-    background-color: rgba(63, 63, 194);   
- }
- footer{
+ footer {
     margin: 10px;
  }
