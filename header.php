@@ -14,7 +14,6 @@
 <body>
     <ul>
         <li class="navlist"><a href="index.php">Home</a></li>
-        <li class="navlist"><a href="resume.php">Resume</a></li>
         <li class="navlist"><a href="contact.php">Contact</a></li>
     </ul>
 </nav>

@@ -12,7 +12,7 @@ include('header.php');
 <!-- list of skills as tags, sidebar? menu? -->
 
 <h2>Resume</h2>
-<p>Download as PDF</p>
+<p><a href="resume.pdf" target="_blank">Download as PDF</a></p>
 <h3>Experience</h3>
 <h4>Sales Advisor at OfficeMax in Skokie, IL - 2022 to Present</h4>
 <ul><li>Greet customers at door and provide excellent service throughout the store</li>
@@ -23,7 +23,7 @@ include('header.php');
 <ul><li>Field research: lot status for new construction housing market</li>
 <li>Online research: property, deed, permit, builder, local/county planning information</li>
 <li>Data entry in proprietary database</li>
-<ul>
+</ul>
 <h4>Sales at Beacon Fasteners and Components in Wheeling, IL - 2005 to 2009</h4>
 <ul><li>Inbound call center sales and customer service</li>
 <li>Quote and order entry with INxSQL ERP software</li>
